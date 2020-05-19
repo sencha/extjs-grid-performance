@@ -16,7 +16,6 @@ class HomeComponent extends HTMLElement {
   <li><a target="_blank" href="https://js.devexpress.com/Overview/DataGrid/">DevExtreme Data Grid - DevExpress</a>
   <li><a target="_blank" href="https://www.grapecity.com/wijmo-flexgrid">Wijmo FlexGrid - Grapecity</a>
   <li><a target="_blank" href="https://www.syncfusion.com/javascript-ui-controls/js-data-grid">JavaScript UI controls DataGrid - Syncfusion</a>
-  <li><a target="_blank" href="https://webix.com/widget/datatable/">Webix DataTable - XB Software</a>
 </ul>
 `
   }

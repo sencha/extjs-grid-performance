@@ -31,10 +31,6 @@ export function initialize(me) {
       background="#df232b";
       color="white";
       break;
-    case 'webix':
-      background="#6f4eb5";
-      color="white";
-      break;
     default:
       background="#df232b";
       color="black";
