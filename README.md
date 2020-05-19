@@ -9,8 +9,7 @@ The following JavaScript Grid/Table libraries were evaluated. Click one of the l
 3. [ExtJS Classic](https://docs.sencha.com/extjs/7.2.0/classic/Ext.grid.Panel.html)
 4. [GrapeCity FlexGrid (Wijimo)](https://www.grapecity.com/wijmo-flexgrid)
 5. [Syncfusion](https://www.syncfusion.com/javascript-ui-controls/js-data-grid)
-6. [Webix](https://webix.com/widget/datatable/)
-7. [KendoUI](https://demos.telerik.com/kendo-ui/grid/index?_ga=2.243489477.1357119994.1584889528-1295651737.1584889528)
+6. [KendoUI](https://demos.telerik.com/kendo-ui/grid/index?_ga=2.243489477.1357119994.1584889528-1295651737.1584889528)
 
 # Source
 
