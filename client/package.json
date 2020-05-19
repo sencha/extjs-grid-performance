@@ -1,0 +1,21 @@
+{
+  "name": "performance-testing",
+  "version": "1.0.0",
+  "description": "performance-testing",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {},
+  "devDependencies": {
+    "@vaadin/router": "1.7.1",
+    "webpack": "~4.39.2",
+    "webpack-cli": "~3.3.6",
+    "webpack-dev-server": "~3.8.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-plugin": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0"
+  }
+}

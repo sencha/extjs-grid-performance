@@ -1,0 +1,22 @@
+.wj-flexgrid{
+    max-height: 200px;
+}
+
+#target {
+    width: 100%;
+}
+
+.ag-theme-balham {
+    width: 100% !important;
+}
+
+.wj-flexgrid [wj-part="root"]::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+}
+  
+.wj-flexgrid [wj-part="root"]::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
