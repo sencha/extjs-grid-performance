@@ -30,6 +30,7 @@ class KendoUIScrollComponent extends HTMLElement {
     this.starttest.addEventListener('click', (event) => {
       if (this.gridToTest == null) {
         this.runGridTest();
+        this.startIndex = 1;
       }
     });
     
@@ -43,6 +44,7 @@ class KendoUIScrollComponent extends HTMLElement {
 
   scrollToEnd() {
     this.isScrollToEnd = true;
+    startTimer(this);
     this.startScrollingDown();
   }
 
@@ -58,15 +60,14 @@ class KendoUIScrollComponent extends HTMLElement {
 
     const totalTargetScrollUpPage = parseInt(document.getElementById("scrollUpVal").value,0);
     const currentHeightOfTBody = this.gridToTest.table.find("tbody").height();
-
     for (let pageCounter = this.startIndex; pageCounter <= totalTargetScrollDownPage; pageCounter++) {
       const scrollHeightTarget = pageCounter * rowHeight * pageSize;
       if (currentHeightOfTBody >= scrollHeightTarget) {
-        document.getElementsByClassName("k-grid-content")[0].scroll(0,scrollHeightTarget);
+        document.getElementsByClassName("k-scrollbar k-scrollbar-vertical")[0].scroll(0,scrollHeightTarget);
         this.startIndex++;
       } else {
         this.isScrollWorking = true;
-        document.getElementsByClassName("k-grid-content")[0].scroll(0,scrollHeightTarget);
+        document.getElementsByClassName("k-scrollbar k-scrollbar-vertical")[0].scroll(0,scrollHeightTarget);
         break;
       }
     }
@@ -76,21 +77,21 @@ class KendoUIScrollComponent extends HTMLElement {
 
       if(!this.isScrollToEnd) {
         const scrollHeightTarget = totalTargetScrollUpPage * rowHeight * pageSize;
-        document.getElementsByClassName("k-grid-content")[0].scroll(0, scrollHeightTarget);
+        document.getElementsByClassName("k-scrollbar k-scrollbar-vertical")[0].scroll(0, scrollHeightTarget);
       } else {
         this.isScrollToEnd = false;
         testName = "Scroll End"
       }
 
       var milliseconds = endTimer(this)
-        var testJSON = {
-          product: this.product,
-          testname: testName,
-          milliseconds: milliseconds,
-          pageDown: totalTargetScrollDownPage,
-          pageUp: totalTargetScrollUpPage,
-          pageSize: pageSize
-        }
+      var testJSON = {
+        product: this.product,
+        testname: testName,
+        milliseconds: milliseconds,
+        pageDown: totalTargetScrollDownPage,
+        pageUp: totalTargetScrollUpPage,
+        pageSize: pageSize
+      }
       sendIt(this.product, testName, testJSON, milliseconds);
       this.isScrollWorking = false;
     }
@@ -148,8 +149,8 @@ class KendoUIScrollComponent extends HTMLElement {
         height: 450,
         sortable: true,
         scrollable: {
-          virtual: false,
-          endless: true
+          virtual: true,
+          // endless: true
         },
         pageable: {
           numeric: false,
