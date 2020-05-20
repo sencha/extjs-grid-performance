@@ -1,6 +1,6 @@
-# Sencha's Ext JS Classic Grid Performance Benchmark Tests
+# Sencha's Ext JS Grid Performance Benchmark Tests
 
-Performance results, testing Sencha's Ext JS Classic Grid against competitor grids in a series of benchmark tests.
+Performance results, testing Sencha's Ext JS Grid against competitor grids in a series of benchmark tests.
 
 [Grids](#Grids)
 
@@ -11,7 +11,7 @@ Performance results, testing Sencha's Ext JS Classic Grid against competitor gri
 [Source](#Source)
 
 # Grids
-The following JavaScript Grid/Table libraries were evaluated. Click one of the links below to read the library specific README.
+The following JavaScript Grid/Table libraries were evaluated:
 
 1. [ag-Grid](https://www.ag-grid.com/)
 2. [DevExtreme Grid](https://js.devexpress.com/Overview/DataGrid/)
@@ -34,7 +34,7 @@ The following JavaScript Grid/Table libraries were evaluated. Click one of the l
 ![alt text](./results/charts/scroll_medium.png)
 ![alt text](./results/charts/scroll_large.png)
 
-### Live Chart Links
+## Live Chart Links
 * [Initial Loading](https://static.fusioncharts.com/sencha/initial-load-time.html)
 * [Server-side Filtering](https://static.fusioncharts.com/sencha/server-filter-test.html)
 * Scrolling
@@ -42,11 +42,10 @@ The following JavaScript Grid/Table libraries were evaluated. Click one of the l
     * * [Medium](https://static.fusioncharts.com/sencha/scroll-time-mid.html)
     * * [Large](https://static.fusioncharts.com/sencha/scroll-time-large.html)
 
-// TODO: Markdown tables
-
 ## Raw Data
 
-//TODO: link to CSV
+* [Results .csv](Grid_Performance_Benchmark_Results_CSV.csv)
+* [Results .xlsx](Grid_Performance_Benchmark_Results_XLS.xlsx.cpgz)
 
 # Test Design
 
@@ -70,8 +69,6 @@ Unless explicitly noted within the library and/or README file data was loaded pr
 Results from each test are output in the console.log and also on the page.
 
 The test wrapper code is located is the `src` directory and available as a static class (test_metrics_static.js) or one that can be instantiated (test_metrics.js).
-
-This code is based upon Mats Brynste's approach to JS metrics.
 
 ## Test methodology
 
@@ -113,7 +110,7 @@ mechanisms with no modifications to buffer size or similar.
 # Source
 
 ## Client
-The `client` directory includes Sencha's implementation of the Ext JS Classic grid and each of the competitor grids used in the performance test. 
+The `client` directory includes Sencha's implementation of the Ext JS grid and each of the competitor grids used in the performance test. 
 
 ## Server
 The `client` directory contains the raw data api used in performance testing backend to retrieve data. 
