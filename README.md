@@ -23,6 +23,7 @@ The following JavaScript Grid/Table libraries were evaluated:
 # Results
 
 ## Results Rendered with Fusion Charts
+See [Live Charts](##Live-Chart-Links)
 ### Initial Loading
 ![alt text](./results/charts/intial_load_fc.png)
 
