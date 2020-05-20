@@ -23,7 +23,7 @@ The following JavaScript Grid/Table libraries were evaluated:
 # Results
 
 ## Results Rendered with Fusion Charts
-See [Live Charts](##Live-Chart-Links)
+See [Live Charts](https://github.com/sencha/extjs-grid-performance#live-chart-links)
 ### Initial Loading
 ![alt text](./results/charts/intial_load_fc.png)
 
