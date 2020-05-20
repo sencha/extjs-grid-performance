@@ -22,20 +22,31 @@ The following JavaScript Grid/Table libraries were evaluated. Click one of the l
 
 # Results
 
-<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/initial-load-time.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
-</iframe>
+## Results Rendered with Fusion Charts
+### Initial Loading
+![alt text](./results/charts/intial_load_fc.png)
 
-<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/server-filter-test.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
-</iframe>
+### Server Side Filtering
+![alt text](./results/charts/server_side_filtering_fc.png)
 
-<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/scroll-time-large.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
-</iframe>
+### Scrolling
+![alt text](./results/charts/scroll_small.png)
+![alt text](./results/charts/scroll_medium.png)
+![alt text](./results/charts/scroll_large.png)
 
-<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/scroll-time-mid.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
-</iframe>
+### Live Chart Links
+* [Initial Loading](https://static.fusioncharts.com/sencha/initial-load-time.html)
+* [Server-side Filtering](https://static.fusioncharts.com/sencha/server-filter-test.html)
+* Scrolling
+    * * [Small](https://static.fusioncharts.com/sencha/scroll-time-small.html)
+    * * [Medium](https://static.fusioncharts.com/sencha/scroll-time-mid.html)
+    * * [Large](https://static.fusioncharts.com/sencha/scroll-time-large.html)
 
-<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/scroll-time-small.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
-</iframe>
+// TODO: Markdown tables
+
+## Raw Data
+
+//TODO: link to CSV
 
 # Test Design
 
