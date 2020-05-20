@@ -1,7 +1,16 @@
 # Sencha's Ext JS Classic Grid Performance Benchmark Tests
 
-Performance testing Sencha ExtJS grids against competitors.
+Performance results, testing Sencha's Ext JS Classic Grid against competitor grids in a series of benchmark tests.
 
+[Grids](#Grids)
+
+[Results](#Results)
+
+[Test Design](#Test-Design)
+
+[Source](#Source)
+
+# Grids
 The following JavaScript Grid/Table libraries were evaluated. Click one of the links below to read the library specific README.
 
 1. [ag-Grid](https://www.ag-grid.com/)
@@ -11,13 +20,22 @@ The following JavaScript Grid/Table libraries were evaluated. Click one of the l
 5. [Syncfusion](https://www.syncfusion.com/javascript-ui-controls/js-data-grid)
 6. [KendoUI](https://demos.telerik.com/kendo-ui/grid/index?_ga=2.243489477.1357119994.1584889528-1295651737.1584889528)
 
-# Source
+# Results
 
-## Client
-The `client` directory includes Sencha's implementation of the Ext JS Classic grid and each of the competitor grids used in the performance test. 
+<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/initial-load-time.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
+</iframe>
 
-## Server
-The `client` directory contains the raw data api used in performance testing backend to retrieve data. 
+<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/server-filter-test.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
+</iframe>
+
+<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/scroll-time-large.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
+</iframe>
+
+<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/scroll-time-mid.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
+</iframe>
+
+<iframe height="415" style="width: 100%;" scrolling="no" src="https://static.fusioncharts.com/sencha/scroll-time-small.html" frameborder="no" allowtransparency="true" allowfullscreen="true">
+</iframe>
 
 # Test Design
 
@@ -80,6 +98,14 @@ For each grid this test can be found in the `buffer_speed` folder.
 
 Each grid contains a `scrolling_speed` directory. This measures the FPS and time it takes to scroll each grid from top to bottom with data being loaded into the grid using the default
 mechanisms with no modifications to buffer size or similar.
+
+# Source
+
+## Client
+The `client` directory includes Sencha's implementation of the Ext JS Classic grid and each of the competitor grids used in the performance test. 
+
+## Server
+The `client` directory contains the raw data api used in performance testing backend to retrieve data. 
 
 
 
