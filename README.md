@@ -114,7 +114,7 @@ mechanisms with no modifications to buffer size or similar.
 The `client` directory includes Sencha's implementation of the Ext JS grid and each of the competitor grids used in the performance test. 
 
 ## Server
-The `client` directory contains the raw data api used in performance testing backend to retrieve data. 
+The `server` directory contains the raw data api used in performance testing backend to retrieve data. 
 
 
 
