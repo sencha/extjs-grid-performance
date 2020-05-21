@@ -45,8 +45,8 @@ See [Live Charts](https://github.com/sencha/extjs-grid-performance#live-chart-li
 
 ## Raw Data
 
-* [Results .csv](Grid_Performance_Benchmark_Results_CSV.csv)
-* [Results .xlsx](Grid_Performance_Benchmark_Results_XLS.xlsx.cpgz)
+* [Results .csv](https://github.com/sencha/extjs-grid-performance/blob/master/results/Grid_Performance_Benchmark_Results_CSV.csv)
+* [Results .xlsx](https://github.com/sencha/extjs-grid-performance/blob/master/results/Grid_Performance_Benchmark_Results_XLS.xlsx.cpgz)
 
 # Test Design
 
