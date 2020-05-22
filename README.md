@@ -25,15 +25,15 @@ The following JavaScript Grid/Table libraries were evaluated:
 ## Results Rendered with Fusion Charts
 See [Live Charts](##Live-Chart-Links)
 ### Initial Loading
-![alt text](./results/charts/intial_load_fc.png)
+[![alt text](./results/charts/intial_load_fc.png)](https://static.fusioncharts.com/sencha/initial-load-time.html)
 
 ### Server Side Filtering
-![alt text](./results/charts/server_side_filtering_fc.png)
+[![alt text](./results/charts/server_side_filtering_fc.png)](https://static.fusioncharts.com/sencha/server-filter-test.html)
 
 ### Scrolling
-![alt text](./results/charts/scroll_small.png)
-![alt text](./results/charts/scroll_medium.png)
-![alt text](./results/charts/scroll_large.png)
+[![alt text](./results/charts/scroll_small.png)](https://static.fusioncharts.com/sencha/scroll-time-small.html)
+[![alt text](./results/charts/scroll_medium.png)](https://static.fusioncharts.com/sencha/scroll-time-mid.html)
+[![alt text](./results/charts/scroll_large.png)](https://static.fusioncharts.com/sencha/scroll-time-large.html)
 
 ## Live Chart Links
 * [Initial Loading](https://static.fusioncharts.com/sencha/initial-load-time.html)
